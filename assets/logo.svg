@@ -1,0 +1,15 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Логотип Осознанность">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0" stop-color="#33a0d1"/>
+      <stop offset="1" stop-color="#2a73b0"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#g1)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 100c0-30 25-50 60-50s60 20 60 50c0 18-10 30-22 36-6 3-18 6-28 6-10 0-22-3-29-6-12-6-21-18-21-36z"/>
+    <path d="M70 85c10-8 20-8 30-4s18 8 26 12" opacity="0.9"/>
+    <path d="M60 110c12-6 24-4 36 0s20 6 30 2" opacity="0.9"/>
+    <path d="M50 125c20-2 40 2 60 2s34-4 44-10" opacity="0.7"/>
+  </g>
+</svg>
