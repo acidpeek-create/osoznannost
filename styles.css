@@ -48,7 +48,7 @@ border-radius: 20px;
 /* reviews */
 .reviews-wrap{display:flex;align-items:center;gap:12px;position:relative;padding:20px 0}
 .reviews-track{display:flex;transition:transform .45s;min-width:0}
-.review-card{flex:0 0 100%;max-width:760px;margin:0 auto;padding:18px;border-radius:12px;background:var(--panel);box-shadow:0 8px 30px rgba(0,0,0,0.4)}
+.review-card{flex:0 0 100%;margin:0 auto;padding:18px;border-radius:12px;background:var(--panel);box-shadow:0 8px 30px rgba(0,0,0,0.4)}
 
 /* footer */
 .site-footer{margin:36px 0;text-align:center;color:var(--muted)}
@@ -119,9 +119,29 @@ border-radius: 20px;
     max-width:92%;background:var(--panel-dark);padding:20px;border-radius:12px;box-shadow:0 8px 40px rgba(0,0,0,.5);position:relative}
 
 /* reviews */
-.reviews-wrap{display:flex;align-items:center;gap:12px;justify-content:center;flex-wrap:nowrap;overflow:hidden}
-.reviews-track{display:flex;transition:transform .45s ease;width:100%}
-.review-card{flex:0 0 100%;max-width:760px;margin:0 auto;padding:18px;border-radius:12px;background:var(--panel-dark);box-shadow:0 8px 30px rgba(0,0,0,0.35)}
+.reviews-wrap{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  justify-content:center;
+  flex-wrap:nowrap;
+  overflow:hidden
+}
+.reviews-track{
+  display:flex;
+  transition:transform .45s ease;
+  width: 100%;
+}
+.reviews-card:hover{
+  width: 100%;
+}
+.review-card{
+  flex:0 0 100%;
+  margin:0 auto;
+  padding:18px;
+  border-radius:12px;
+  background:var(--panel-dark);
+  box-shadow:0 8px 30px rgba(0,0,0,0.35)}
 
 /* responsive tweaks */
 @media(max-width:900px){
